@@ -1,0 +1,29 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Video Player</title>
+  </head>
+  <body>
+    <section class="video-container">
+      <h1>Video Player</h1>
+      <input type="file" id="videoFile" accept="video/*" />
+      <video controls></video>
+    </section>
+
+    <script src="../scripts/video_player.ts"></script>
+  </body>
+</html>
