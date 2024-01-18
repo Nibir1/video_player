@@ -1,3 +1,5 @@
+// ------ Local Video File Play System Starts Here ------
+
 const playSelectedFile = (event: Event) => {
   // Preventing default form submission behavior
   event.preventDefault();
@@ -30,3 +32,5 @@ const inputNode = document.querySelector("input") as HTMLInputElement;
  * As soon as we choose a video file through the input tag - it changes
  * and we are calling the playSelectedFile function which is responsible in playing the video*/
 inputNode.addEventListener("change", playSelectedFile);
+
+// ------ Local Video File Play System Ends Here ------

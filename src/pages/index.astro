@@ -19,11 +19,18 @@ import "../styles/global.css";
   </head>
   <body>
     <section class="video-container">
-      <h1>Video Player</h1>
+      <h1>Play Local Video</h1>
       <input type="file" id="videoFile" accept="video/*" />
       <video controls></video>
     </section>
 
-    <script src="../scripts/video_player.ts"></script>
+    <section class="video-container">
+      <h1>Paste Video Link To Play</h1>
+      <input type="text" id="videoLink" />
+      <button id="playButton">Play Video</button>
+      <iframe width="960" height="540" src="" id="pastedVideoPlayer"> </iframe>
+    </section>
+
+    <script src="../scripts/index.ts"></script>
   </body>
 </html>

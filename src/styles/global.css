@@ -15,3 +15,10 @@ body {
   width: 960px;
   height: 540px;
 }
+.video-container iframe {
+  margin-top: 10px;
+}
+
+.video-container button {
+  margin-top: 5px;
+}
